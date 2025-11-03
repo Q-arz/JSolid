@@ -1,0 +1,46 @@
+{
+  "name": "@oxygen/jsolid",
+  "version": "0.1.0",
+  "description": "JSolid - Compilador JavaScript/TypeScript a Solidity (independiente)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "docs",
+    "src",
+    "examples"
+  ],
+  "keywords": [
+    "jsolid",
+    "solidity",
+    "compiler",
+    "smart-contracts",
+    "oxygen"
+  ],
+  "author": "Oxygen Team",
+  "license": "MIT",
+  "dependencies": {
+    "solc": "^0.8.28",
+    "reflect-metadata": "^0.2.0",
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@babel/parser": "^7.24.0"
+  }
+}
+
+
