@@ -60,37 +60,32 @@ console.log(res.address);
 MIT © 2025 Q•arz — see LICENSE and NOTICE
 
 ## Full Documentation
-- docs/overview.md
-- docs/syntax-object.md
-- docs/syntax-class.md
-- docs/syntax-decorators.md
-- docs/templates.md
-- docs/deploy.md
-- docs/e2e.md
-- docs/faq.md
+Documentation lives under `docs/` by language. Use these repo links:
+– English: https://github.com/Q-arz/JSolid/tree/main/docs/en
+– Español: https://github.com/Q-arz/JSolid/tree/main/docs/es
 
 ## Language Navigation
-- Spanish (ES):
-  - docs/es/overview.md
-  - docs/es/syntax-object.md
-  - docs/es/syntax-class.md
-  - docs/es/syntax-decorators.md
-  - docs/es/templates.md
-  - docs/es/deploy.md
-  - docs/es/e2e.md
-  - docs/es/faq.md
-  - docs/es/examples-dao.md
-  - docs/es/examples-marketplace.md
-
 - English (EN):
-  - docs/en/overview.md
-  - docs/en/syntax-object.md
-  - docs/en/syntax-class.md
-  - docs/en/syntax-decorators.md
-  - docs/en/templates.md
-  - docs/en/deploy.md
-  - docs/en/e2e.md
-  - docs/en/faq.md
+  - Overview: https://github.com/Q-arz/JSolid/blob/main/docs/en/overview.md
+  - Syntax (Object): https://github.com/Q-arz/JSolid/blob/main/docs/en/syntax-object.md
+  - Syntax (Class): https://github.com/Q-arz/JSolid/blob/main/docs/en/syntax-class.md
+  - Syntax (Decorators): https://github.com/Q-arz/JSolid/blob/main/docs/en/syntax-decorators.md
+  - Templates: https://github.com/Q-arz/JSolid/blob/main/docs/en/templates.md
+  - Deploy: https://github.com/Q-arz/JSolid/blob/main/docs/en/deploy.md
+  - E2E: https://github.com/Q-arz/JSolid/blob/main/docs/en/e2e.md
+  - FAQ: https://github.com/Q-arz/JSolid/blob/main/docs/en/faq.md
+
+- Español (ES):
+  - Overview: https://github.com/Q-arz/JSolid/blob/main/docs/es/overview.md
+  - Sintaxis (Objetos): https://github.com/Q-arz/JSolid/blob/main/docs/es/syntax-object.md
+  - Sintaxis (Clases): https://github.com/Q-arz/JSolid/blob/main/docs/es/syntax-class.md
+  - Sintaxis (Decoradores): https://github.com/Q-arz/JSolid/blob/main/docs/es/syntax-decorators.md
+  - Plantillas: https://github.com/Q-arz/JSolid/blob/main/docs/es/templates.md
+  - Deploy: https://github.com/Q-arz/JSolid/blob/main/docs/es/deploy.md
+  - E2E: https://github.com/Q-arz/JSolid/blob/main/docs/es/e2e.md
+  - FAQ: https://github.com/Q-arz/JSolid/blob/main/docs/es/faq.md
+  - DAO: https://github.com/Q-arz/JSolid/blob/main/docs/es/examples-dao.md
+  - Marketplace: https://github.com/Q-arz/JSolid/blob/main/docs/es/examples-marketplace.md
 
 ## Contributing
 See CONTRIBUTING.md for setup, style, structure, and PR guidelines.
