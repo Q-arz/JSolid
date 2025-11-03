@@ -1,8 +1,14 @@
 # JSolid
 
-Compilador JavaScript/TypeScript → Solidity con 3 sintaxis (objetos, clases, decoradores), templates OpenZeppelin y deploy con ethers.
+JavaScript/TypeScript → Solidity compiler with three authoring modes (object, class, decorators), OpenZeppelin templates, and `ethers` deploy. JSolid aims to lower the barrier for EVM development across any Solidity-compatible chain — not only for Oxy•gen, but for all EVM networks.
 
-## Instalación
+## Why JSolid?
+- Bridge web developers to smart contracts using familiar JavaScript/TypeScript.
+- Offer 3 authoring styles to fit different teams and maturity levels.
+- Ship with production-ready templates (ERC20/721/1155, Ownable, Pausable, AccessControl) and Diamond pattern.
+- Keep it chain-agnostic: works with any EVM where Solidity runs.
+
+## Install
 
 ```bash
 cd JSolid
@@ -19,7 +25,7 @@ import { JSolid } from '@oxygen/jsolid';
 const erc20 = JSolid.fromTemplate('ERC20', { name: 'MyToken', symbol: 'MTK', initialSupply: '1000000 * 10**18' });
 const { abi, bytecode } = erc20.compileWithSolc();
 
-// 2) Objeto (contrato simple)
+// 2) Object-based (simple contract)
 const def = {
   name: 'Counter',
   state: { count: 'uint256' },
@@ -39,10 +45,10 @@ console.log(compiled.solidity);
 - JSolid.fromTemplate(name, config)
 - compiled.compileWithSolc()
 
-## Templates disponibles
+## Templates
 - ERC20, ERC721, ERC1155, Ownable, Pausable, AccessControl, Diamond
 
-## Deploy con ethers
+## Deploy (ethers)
 ```javascript
 import { EthersDeployer } from '@oxygen/jsolid/deployer/ethers-deployer';
 const deployer = new EthersDeployer(signer);
@@ -50,10 +56,10 @@ const res = await deployer.deploy(abi, bytecode, [/* args */]);
 console.log(res.address);
 ```
 
-## Licencia
-MIT
+## License
+MIT © 2025 Q•arz — see LICENSE and NOTICE
 
-## Documentación Detallada
+## Full Documentation
 - docs/overview.md
 - docs/syntax-object.md
 - docs/syntax-class.md
@@ -63,8 +69,8 @@ MIT
 - docs/e2e.md
 - docs/faq.md
 
-## Navegación por Idioma
-- Español (ES):
+## Language Navigation
+- Spanish (ES):
   - docs/es/overview.md
   - docs/es/syntax-object.md
   - docs/es/syntax-class.md
@@ -86,7 +92,7 @@ MIT
   - docs/en/e2e.md
   - docs/en/faq.md
 
-## Contribuir
-Consulta CONTRIBUTING.md para setup, guías de estilo, estructura y cómo enviar PRs.
+## Contributing
+See CONTRIBUTING.md for setup, style, structure, and PR guidelines.
 
 

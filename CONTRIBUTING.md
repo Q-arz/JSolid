@@ -14,7 +14,7 @@ npm run test
 - Usa PRs pequeños y enfocados
 
 ## Estructura
-- `src/` compilador/generador/deployer/runtime
+- `src/` compilador/deployer/runtime
 - `docs/es` y `docs/en` documentación bilingüe
 - `examples/` ejemplos ejecutables
 - `test/` unit/integration/E2E
